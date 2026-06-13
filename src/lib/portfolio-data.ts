@@ -245,7 +245,7 @@ export const certificates = [
     name: "UI/UX Designer & Researcher (MSIB Batch 6) at PT. BISA ARTIFISIAL INDONESIA (BISA.AI Academy)",
     issuer: "PT. BISA ARTIFISIAL INDONESIA & KEMENDIKBUDRISTEK",
     year: "2024",
-    logo: "/Sertifmsib/logobisa.png",
+    logo: "/Sertifmsib/Logobisa.png",
     credentialId: "No. 8922993", 
     verified: true,
     images: [
