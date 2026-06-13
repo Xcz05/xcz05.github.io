@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, useRef, type ReactNode } from "react";
 import {
   Download, Mail, Send, ArrowRight, Github, Linkedin, Instagram,
   Search, GraduationCap, Award, Briefcase, Sparkles, MapPin, Phone, Trophy,
@@ -8,8 +8,8 @@ import heroBg from "@/assets/hero-bg.jpg";
 import { projects, skills, experiences, certificates, achievements, type Project } from "@/lib/portfolio-data";
 import { Navbar } from "@/components/portfolio/Navbar";
 import { ProjectModal } from "@/components/portfolio/ProjectModal";
-import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+
 
 
 const CATEGORIES = ["All", "UI/UX", "Software Engineering", "Documentation", "Data Analysis", "Academic Project"] as const;
@@ -579,7 +579,7 @@ With a background in Information Technology and experience across UI/UX Design, 
   );
 }
 
-function Section({ id, eyebrow, title, children }: { id: string; eyebrow: string; title: string; children: React.ReactNode }) {
+function Section({ id, eyebrow, title, children }: { id: string; eyebrow: string; title: string; children: ReactNode }) {
   return (
     <section id={id} className="py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -593,7 +593,7 @@ function Section({ id, eyebrow, title, children }: { id: string; eyebrow: string
   );
 }
 
-function InfoCard({ icon, title, sub }: { icon: React.ReactNode; title: string; sub: string }) {
+function InfoCard({ icon, title, sub }: { icon: ReactNode; title: string; sub: string }) {
   return (
     <div className="rounded-2xl border border-border bg-card p-4 shadow-card">
       <div className="grid h-9 w-9 place-items-center rounded-lg bg-accent text-accent-foreground mb-3">{icon}</div>
@@ -618,7 +618,7 @@ function ContactRow({
   value,
   href,
 }: {
-  icon: React.ReactNode;
+  icon: ReactNode;
   label: string;
   value: string;
   href?: string;
