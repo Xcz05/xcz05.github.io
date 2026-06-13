@@ -250,6 +250,7 @@ With a background in Information Technology and experience across UI/UX Design, 
               <div className="p-5">
                 <h3 className="font-display font-semibold leading-tight">{c.name}</h3>
                 <p className="text-sm text-muted-foreground mt-1">{c.issuer}</p>
+                <p className="text-xs break-all">{c.images[0]}</p>
                 
 <button
   onClick={() => {
