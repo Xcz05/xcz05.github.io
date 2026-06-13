@@ -455,9 +455,11 @@ With a background in Information Technology and experience across UI/UX Design, 
         <div className="flex items-center gap-3 mt-4">
 
   <img
-    src={selectedCertificate.logo}
-    className="w-10 h-10 object-contain"
-  />
+  src={selectedCertificate.logo}
+  alt={selectedCertificate.name}
+  className="w-10 h-10 object-contain border"
+  onError={() => console.log(selectedCertificate.logo)}
+/>
 
   <div>
 
