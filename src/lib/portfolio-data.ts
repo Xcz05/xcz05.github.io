@@ -196,7 +196,7 @@ export const certificates = [
     name: "Software Engineer (BUMN Internship) at PT. Petrokimia Gresik",
     issuer: "PT. Petrokimia Gresik",
     year: "2025",
-    logo: "/Sertifpetro/Logopetro.JPEG",
+    logo: "/Sertifpetro/Logopetro.jpeg",
     credentialId: "Verified",
     verified: true,
     images: [
