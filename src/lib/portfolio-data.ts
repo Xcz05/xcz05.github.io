@@ -171,7 +171,7 @@ export const certificates = [
     name: "Data & Information Management (MagangHub Batch2) at KP2MI",
     issuer: "Kementerian Pelindungan Pekerja Migran Indonesia & Kementerian Ketenagakerjaan RI",
     year: "2026",
-    logo: "/Sertifmaganghub/Logo_Kementerian_Pelindungan_Pekerja_Migran_Indonesia_-_BP2MI_v2_(2024).svg.png",
+    logo: "/Sertifmaganghub/logo-bp2mi.png",
     credentialId: "No. MN.031.035225.02.2025",
     verified: true,
     images: [

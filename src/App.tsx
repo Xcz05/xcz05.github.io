@@ -237,8 +237,7 @@ With a background in Information Technology and experience across UI/UX Design, 
   <img
     src={c.images[0]}
     alt={c.name}
-    className="w-full h-full object-cover blur-sm group-hover:blur-none transition duration-500"
-  />
+    className="w-full h-full object-cover blur-sm group-hover:blur-none transition duration-500"/>
 
   <div className="absolute inset-0 bg-black/20"></div>
 
