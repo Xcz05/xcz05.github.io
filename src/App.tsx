@@ -574,7 +574,12 @@ With a background in Information Technology and experience across UI/UX Design, 
 
   </div>
 )}
-      
+      {open && (
+  <ProjectModal
+    project={open}
+    onClose={() => setOpen(null)}
+  />
+)}
     </div>
   );
 }
